@@ -1,0 +1,4 @@
+(1)
+find -name '*.c' -o -name '*.h' | xargs grep -rl 'printf' | sort
+(2)
+history 50 | cut -c 8- | grep 'cd\|ls' | sort

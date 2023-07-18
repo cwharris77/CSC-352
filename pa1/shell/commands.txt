@@ -1,0 +1,8 @@
+(1)
+find -name '*.py' -o -name '*.c' -o -name '*.java'
+(2)
+uniq -w 4 /usr/share/dict/words | wc -l
+(3)
+ncal -j 2022 | grep Su | tr " " "\n" | grep "\S" | grep -v Su | sort -n
+(4)
+ls -o | tr -s " " | cut -d " " -f 5 | sort | uniq
